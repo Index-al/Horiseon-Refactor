@@ -1,9 +1,11 @@
+/* Universal selector for default values */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set the background color of the site to white */
 body {
     background-color: #d9dcd6;
 }
@@ -21,10 +23,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* Make the 'seo' a slightly different color */
 header h1 seo {
     color: #d9dcd6;
 }
 
+/* Header menu */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,11 +46,13 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Set links color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Set font size for paragraphs */
 p {
     font-size: 16px;
 }
@@ -59,16 +65,6 @@ main {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 /* The three main blue boxes under the banner image */
@@ -122,7 +118,20 @@ article img {
 
 article h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    /* This font size doesn't really match the reference image given but
+    I don't want to change the style of the website, so I'm gonna leave it be */
+    font-size: 36px; 
+}
+
+/* Place the images left or right in the articles section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* Footer container copyright info and 'Made with' */
