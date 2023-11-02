@@ -25,7 +25,7 @@ header h1 seo {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +33,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -52,7 +52,7 @@ p {
 }
 
 /* This is the main banner image on the homepage */
-.hero {
+main {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -72,7 +72,7 @@ p {
 }
 
 /* The three main blue boxes under the banner image */
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
